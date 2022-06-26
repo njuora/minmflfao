@@ -2,11 +2,9 @@ This repository is to supplement the article "Minimizing the maximum flow loss i
 
 #### Instances  (NMData)
 
-Since our problem MMFLPFAO is a variant of the maxTFFAO problem ([Boland2014](https://doi.org/10.1016/j.dam.2012.05.027))
+Since our problem MMFLPFAO is a variant of the maxTFFAO problem ([Boland2014](https://doi.org/10.1016/j.dam.2012.05.027))[^1], the data sets of maxTFFAO can be reused to evaluate the algorithm for MinFLFAO.
 
 [^1]: Boland N ,  Kalinowski T ,  Waterer H , et al. Scheduling arc maintenance jobs in a network to maximize total flow over time[J]. Discrete Applied Mathematics, 2014, 163(1):34-52.
-
-, the data sets of maxTFFAO can be reused to evaluate the algorithm for MinFLFAO.
 
 There are three datasets, each of them containing 8 networks and 10 job lists per network.
 The $j$-th network for dataset $i$ is described in the file:
