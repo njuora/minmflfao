@@ -24,10 +24,3 @@ These files are just lists of jobs, where every job consists of each row of the 
 > $i\ a\ b\ c\ d$
 
 Here $i$ is the job ID, $a$ is the ID of the arc on which the job has to be performed, $b$ is duration, $c$ and $d$ are the earliest start time and the latest start time of job $i$, respectively.
-
-
-
-#### Results
-
-Here we present the detailed results of three datasets, respectively. Among them, the $implementation$ column indicates the implementation method of the algorithm, 'full' is our BDA algorithm, 'without xxx cut' indicates that the BDA algorithm without xxx cut, 'Gurobi for Benders cuts' indicates using gurobi to solve the separation procedure. The columns $dataset, data, job$ correspond the instance of one network in a dataset. The columns $nodes, arcs, jobs$ are the number of the nodes and arcs of the network and the number of maintenance tasks in the instance. The columns $obj, bound$ are the lower bound and the upper bound, respectively. The $status$ column means the solving status, '2' is optimal, '9' is feasible, '11' is being aborted early. The columns $init\ cuts, opt\ cuts, forbidden\ cuts, goal\ cut$ are the number of initial optimality cuts, optimality cuts in separation procedure, forbidden cuts and goal cut added into MP, respectively. The columns $subTime, time$ indicate the solving time of separation procedure and the whole solution process in seconds. The last column $Nnodes$ is the number of explored nodes in the branch-and-bound tree.
-
